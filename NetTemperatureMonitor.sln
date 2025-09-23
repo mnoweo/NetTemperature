@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTemperatureMonitor", "NetTemperatureMonitor.csproj", "{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}.Debug|x64.ActiveCfg = Debug|x64
+		{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCDC5DFD-E725-479D-B92C-45301FFC5BD8}
+	EndGlobalSection
+EndGlobal
