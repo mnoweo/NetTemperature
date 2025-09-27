@@ -266,7 +266,12 @@ namespace NetTemperatureMonitor.Service
             byte[] command = PrepareReadCommandFrame(address, parameterCode);
             return GetReadValue(command, address) / 10.0f;
         }
-
+        //获取启动时间
+        public short GetRunTime(byte address, byte paramterCode)
+        {
+            byte[] command = PrepareReadCommandFrame(address, paramterCode);
+            return GetReadValue(command, address);
+        }
         //获取上下限报警
         public float GetAlarmAsync(byte address, byte parameterCode)
         {
@@ -295,6 +300,12 @@ namespace NetTemperatureMonitor.Service
         public void SetStepTime(byte address, byte parameterCode, short time)
         {
             byte[] command = PrepareWriteCommandFrame(address, parameterCode, time);
+            GetWriteValue(command);
+        }
+        //设置烤箱启动
+        public void SetStart(byte address, byte parameterCode, short status)
+        {
+            byte[] command = PrepareWriteCommandFrame(address, parameterCode, status);
             GetWriteValue(command);
         }
         //实现接口

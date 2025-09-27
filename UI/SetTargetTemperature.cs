@@ -109,6 +109,7 @@ namespace NetTemperatureMonitor.UI
                             tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + i * 2), temp);
                             tcpClient.SetStepTime(Convert.ToByte(mn), Convert.ToByte(Global.T1 + i * 2), t);
                     }
+                    tcpClient.SetStart(Convert.ToByte(mn), Global.Srun, (short)Srun.RUN);
                     DateTime time = DateTime.Now;
                     Product product = new Product
                     {

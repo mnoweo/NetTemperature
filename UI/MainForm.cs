@@ -82,12 +82,14 @@ namespace NetTemperatureMonitor.UI
                     var list = fsql.Select<Product>().ToList();
                     this.Invoke(new Action(() =>
                     {
-                        DataProcess.UpdateDataGridView(DgvMain, list, item =>
-                            new object[] { item.Id, item.Mn, item.Count, item.PutInTime, item.TakeOutTime });
-                        DataProcess.UpdateDataGridView(DgvLeft, list, item =>
-                            new object[] { item.Id, item.Mn, item.Count, item.RoastTime });
-                        DataProcess.UpdateDataGridView(DgvBottom, list, item =>
-                            new object[] { item.Id, item.Mn, item.PutInTime, item.TakeOutTime, item.PutInWorker, item.TakeOutWorker });
+                    DataProcess.UpdateDataGridView(DgvMain, list, item =>
+                        new object[] { item.Id, item.Mn, item.Count, item.PutInTime, item.TakeOutTime });
+                    DataProcess.UpdateDataGridView(DgvLeft, list, item =>
+                        new object[] { item.Id, item.Mn, item.Count, item.RoastTime });
+                    //已经取出的不再该数据容器中显示
+                    var filteredList = list.Where(item => string.IsNullOrEmpty(item.TakeOutWorker)).ToList();
+                    DataProcess.UpdateDataGridView(DgvBottom, filteredList, item => 
+                        new object[] { item.Id, item.Mn, item.PutInTime, item.TakeOutTime, item.PutInWorker, item.TakeOutWorker });
                     }));
                     Thread.Sleep(1000);
                     
@@ -182,6 +184,7 @@ namespace NetTemperatureMonitor.UI
         public DateTime CurTime { get; set; }
         public float CurTemperature { get; set; }
         public string CurMn { get; set; }
+        public short CurRunTime { get; set; }
         #endregion
         //循环获取温控仪数据
         private void Temperaturetimer_Tick(object sender, EventArgs e)
@@ -206,11 +209,13 @@ namespace NetTemperatureMonitor.UI
                         CurMn = item;
                         CurTime = DateTime.Now;
                         CurTemperature = tcpClient.GetRealTimeTemp(Convert.ToByte(item), Global.Pv);
+                        CurRunTime = tcpClient.GetRunTime(Convert.ToByte(item), Global.RunTime);
                         if (SelectMn == CurMn)
                         {
                             this.Invoke(new Action(() =>
                         {
                             TxtTemperature.Text = CurTemperature.ToString();
+                            TxtRunTime.Text = CurRunTime.ToString();
                         }));
                         }
                         if (CurTemperature != 0)

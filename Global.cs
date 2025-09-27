@@ -23,6 +23,8 @@ namespace NetTemperatureMonitor
         public static readonly byte Pv = 0x4A;
         //只读 SV
         public static readonly byte Sv = 0x4B;
+        //已运行时间
+        public static readonly byte RunTime = 0x2F;
         //上限报警
         public static readonly byte Hial = 0x01;
         //下限报警
