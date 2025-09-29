@@ -145,8 +145,8 @@
             this.uiTableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.uiTableLayoutPanel2.Name = "uiTableLayoutPanel2";
             this.uiTableLayoutPanel2.RowCount = 2;
-            this.uiTableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75.47649F));
-            this.uiTableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.52351F));
+            this.uiTableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.38246F));
+            this.uiTableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.61753F));
             this.uiTableLayoutPanel2.Size = new System.Drawing.Size(533, 787);
             this.uiTableLayoutPanel2.TabIndex = 0;
             this.uiTableLayoutPanel2.TagString = null;
@@ -202,7 +202,7 @@
             this.DgvLeft.RowsDefaultCellStyle = dataGridViewCellStyle9;
             this.DgvLeft.RowTemplate.Height = 27;
             this.DgvLeft.SelectedIndex = -1;
-            this.DgvLeft.Size = new System.Drawing.Size(527, 588);
+            this.DgvLeft.Size = new System.Drawing.Size(527, 602);
             this.DgvLeft.StripeOddColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
             this.DgvLeft.TabIndex = 0;
             // 
@@ -263,12 +263,12 @@
             this.uiTableLayoutPanel3.Controls.Add(this.uiTableLayoutPanel5, 2, 1);
             this.uiTableLayoutPanel3.Controls.Add(this.LedStatus, 1, 1);
             this.uiTableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uiTableLayoutPanel3.Location = new System.Drawing.Point(3, 597);
+            this.uiTableLayoutPanel3.Location = new System.Drawing.Point(3, 611);
             this.uiTableLayoutPanel3.Name = "uiTableLayoutPanel3";
             this.uiTableLayoutPanel3.RowCount = 2;
-            this.uiTableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.uiTableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.uiTableLayoutPanel3.Size = new System.Drawing.Size(527, 187);
+            this.uiTableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.82353F));
+            this.uiTableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 41.17647F));
+            this.uiTableLayoutPanel3.Size = new System.Drawing.Size(527, 173);
             this.uiTableLayoutPanel3.TabIndex = 1;
             this.uiTableLayoutPanel3.TagString = null;
             // 
@@ -277,10 +277,10 @@
             this.BtnConnectStatus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnConnectStatus.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnConnectStatus.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BtnConnectStatus.Location = new System.Drawing.Point(3, 96);
+            this.BtnConnectStatus.Location = new System.Drawing.Point(3, 104);
             this.BtnConnectStatus.MinimumSize = new System.Drawing.Size(1, 1);
             this.BtnConnectStatus.Name = "BtnConnectStatus";
-            this.BtnConnectStatus.Size = new System.Drawing.Size(125, 88);
+            this.BtnConnectStatus.Size = new System.Drawing.Size(125, 66);
             this.BtnConnectStatus.TabIndex = 4;
             this.BtnConnectStatus.Text = "连接状态";
             this.BtnConnectStatus.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -293,7 +293,7 @@
             this.uiButton2.Location = new System.Drawing.Point(3, 3);
             this.uiButton2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiButton2.Name = "uiButton2";
-            this.uiButton2.Size = new System.Drawing.Size(125, 87);
+            this.uiButton2.Size = new System.Drawing.Size(125, 95);
             this.uiButton2.TabIndex = 0;
             this.uiButton2.Text = "烤箱编号";
             this.uiButton2.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -301,9 +301,9 @@
             // LedStatus
             // 
             this.LedStatus.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LedStatus.Location = new System.Drawing.Point(153, 96);
+            this.LedStatus.Location = new System.Drawing.Point(153, 104);
             this.LedStatus.Name = "LedStatus";
-            this.LedStatus.Size = new System.Drawing.Size(86, 88);
+            this.LedStatus.Size = new System.Drawing.Size(86, 66);
             this.LedStatus.TabIndex = 8;
             this.LedStatus.Text = "uiLedBulb1";
             // 
@@ -320,7 +320,7 @@
             this.CbxMnList.MinimumSize = new System.Drawing.Size(63, 0);
             this.CbxMnList.Name = "CbxMnList";
             this.CbxMnList.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
-            this.CbxMnList.Size = new System.Drawing.Size(123, 83);
+            this.CbxMnList.Size = new System.Drawing.Size(123, 91);
             this.CbxMnList.SymbolSize = 24;
             this.CbxMnList.TabIndex = 9;
             this.CbxMnList.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
@@ -635,7 +635,7 @@
             this.uiTableLayoutPanel4.RowCount = 2;
             this.uiTableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.uiTableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.uiTableLayoutPanel4.Size = new System.Drawing.Size(259, 87);
+            this.uiTableLayoutPanel4.Size = new System.Drawing.Size(259, 95);
             this.uiTableLayoutPanel4.TabIndex = 10;
             this.uiTableLayoutPanel4.TagString = null;
             // 
@@ -647,11 +647,11 @@
             this.uiTableLayoutPanel5.Controls.Add(this.BtnExit, 1, 0);
             this.uiTableLayoutPanel5.Controls.Add(this.BtnPutIn, 0, 0);
             this.uiTableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uiTableLayoutPanel5.Location = new System.Drawing.Point(265, 96);
+            this.uiTableLayoutPanel5.Location = new System.Drawing.Point(265, 104);
             this.uiTableLayoutPanel5.Name = "uiTableLayoutPanel5";
             this.uiTableLayoutPanel5.RowCount = 1;
             this.uiTableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.uiTableLayoutPanel5.Size = new System.Drawing.Size(259, 88);
+            this.uiTableLayoutPanel5.Size = new System.Drawing.Size(259, 66);
             this.uiTableLayoutPanel5.TabIndex = 11;
             this.uiTableLayoutPanel5.TagString = null;
             // 
@@ -663,7 +663,7 @@
             this.BtnPutIn.Location = new System.Drawing.Point(3, 3);
             this.BtnPutIn.MinimumSize = new System.Drawing.Size(1, 1);
             this.BtnPutIn.Name = "BtnPutIn";
-            this.BtnPutIn.Size = new System.Drawing.Size(123, 82);
+            this.BtnPutIn.Size = new System.Drawing.Size(123, 60);
             this.BtnPutIn.TabIndex = 5;
             this.BtnPutIn.Text = "放入";
             this.BtnPutIn.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -677,7 +677,7 @@
             this.BtnExit.Location = new System.Drawing.Point(132, 3);
             this.BtnExit.MinimumSize = new System.Drawing.Size(1, 1);
             this.BtnExit.Name = "BtnExit";
-            this.BtnExit.Size = new System.Drawing.Size(124, 82);
+            this.BtnExit.Size = new System.Drawing.Size(124, 60);
             this.BtnExit.TabIndex = 6;
             this.BtnExit.Text = "退出";
             this.BtnExit.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -691,7 +691,7 @@
             this.uiButton1.Location = new System.Drawing.Point(3, 3);
             this.uiButton1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiButton1.Name = "uiButton1";
-            this.uiButton1.Size = new System.Drawing.Size(123, 37);
+            this.uiButton1.Size = new System.Drawing.Size(123, 41);
             this.uiButton1.TabIndex = 6;
             this.uiButton1.Text = "烤箱温度";
             this.uiButton1.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -701,10 +701,10 @@
             this.uiButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiButton3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.uiButton3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiButton3.Location = new System.Drawing.Point(3, 46);
+            this.uiButton3.Location = new System.Drawing.Point(3, 50);
             this.uiButton3.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiButton3.Name = "uiButton3";
-            this.uiButton3.Size = new System.Drawing.Size(123, 38);
+            this.uiButton3.Size = new System.Drawing.Size(123, 42);
             this.uiButton3.TabIndex = 8;
             this.uiButton3.Text = "运行时间";
             this.uiButton3.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -720,7 +720,7 @@
             this.TxtTemperature.Name = "TxtTemperature";
             this.TxtTemperature.Padding = new System.Windows.Forms.Padding(5);
             this.TxtTemperature.ShowText = false;
-            this.TxtTemperature.Size = new System.Drawing.Size(122, 33);
+            this.TxtTemperature.Size = new System.Drawing.Size(122, 37);
             this.TxtTemperature.TabIndex = 7;
             this.TxtTemperature.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.TxtTemperature.Watermark = "";
@@ -730,13 +730,13 @@
             this.TxtRunTime.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.TxtRunTime.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtRunTime.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TxtRunTime.Location = new System.Drawing.Point(133, 48);
+            this.TxtRunTime.Location = new System.Drawing.Point(133, 52);
             this.TxtRunTime.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtRunTime.MinimumSize = new System.Drawing.Size(1, 16);
             this.TxtRunTime.Name = "TxtRunTime";
             this.TxtRunTime.Padding = new System.Windows.Forms.Padding(5);
             this.TxtRunTime.ShowText = false;
-            this.TxtRunTime.Size = new System.Drawing.Size(122, 34);
+            this.TxtRunTime.Size = new System.Drawing.Size(122, 38);
             this.TxtRunTime.TabIndex = 9;
             this.TxtRunTime.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.TxtRunTime.Watermark = "";

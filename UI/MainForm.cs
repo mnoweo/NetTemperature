@@ -86,8 +86,8 @@ namespace NetTemperatureMonitor.UI
                         new object[] { item.Id, item.Mn, item.Count, item.PutInTime, item.TakeOutTime });
                     DataProcess.UpdateDataGridView(DgvLeft, list, item =>
                         new object[] { item.Id, item.Mn, item.Count, item.RoastTime });
-                    //已经取出的不再该数据容器中显示
-                    var filteredList = list.Where(item => string.IsNullOrEmpty(item.TakeOutWorker)).ToList();
+                        //已经取出的不再该数据容器中显示
+                        var filteredList = list.Where(item => string.IsNullOrEmpty(item.TakeOutWorker)).ToList();
                     DataProcess.UpdateDataGridView(DgvBottom, filteredList, item => 
                         new object[] { item.Id, item.Mn, item.PutInTime, item.TakeOutTime, item.PutInWorker, item.TakeOutWorker });
                     }));
@@ -264,17 +264,8 @@ namespace NetTemperatureMonitor.UI
                     string id = DgvBottom.Rows[e.RowIndex].Cells["BorderList"].Value.ToString();
                     string mn = DgvBottom.Rows[e.RowIndex].Cells["Bmn"].Value.ToString();
                     
-                    //检查是否为空
-                    if (!string.IsNullOrEmpty(takeOutWorker))
-                    {
-                        MessageBox.Show("该物料已经取出，请选择其它物料操作");
-                        return;
-                    }
-                    else
-                    {
-                        TakeOut takeOut = new TakeOut(fsql, id, mn);
-                        takeOut.Show();
-                    }
+                    TakeOut takeOut = new TakeOut(fsql, id, mn);
+                    takeOut.Show();
                 }
             }
         }

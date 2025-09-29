@@ -8,9 +8,9 @@ namespace NetTemperatureMonitor
         public static byte[] Writecommand = {0x00, 0x06, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00};
         //服务器IP地址
         //public static readonly string IpAddress = "192.168.240.172";
-        public static readonly string IpAddress = "192.168.0.80";
+        public static readonly string IpAddress = "192.168.240.171";
         //服务器端口
-        public static readonly Int32 Port = 10123;
+        public static readonly Int32 Port = 10067;
         //ModbusRtu读功能
         public static readonly byte Read = 0x03;
         //ModbusTtu写功能

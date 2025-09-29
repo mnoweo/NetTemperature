@@ -3,63 +3,64 @@
   "WorkspaceRootPath": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\AppData\\Local\\SourceServer\\1a663e73c1c81b259368698285802a3228ee200ad42dc3ce389e086b08258a78\\FreeSql\\Internal\\CommonExpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|d:\\visual studio\\dev\\nettemperaturemonitor\\service\\yudianclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:service\\yudianclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\model\\temperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:model\\temperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\tools\\dataprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:tools\\dataprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\takeout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\takeout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\takeout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\takeout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\takeout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\takeout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\tools\\dataprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:tools\\dataprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_US7E3PM/NetTm/sa/SqlTable/dbo.Temperature.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -84,25 +85,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CommonExpression.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\AppData\\Local\\SourceServer\\1a663e73c1c81b259368698285802a3228ee200ad42dc3ce389e086b08258a78\\FreeSql\\Internal\\CommonExpression.cs",
-              "ToolTip": "C:\\Users\\admin\\AppData\\Local\\SourceServer\\1a663e73c1c81b259368698285802a3228ee200ad42dc3ce389e086b08258a78\\FreeSql\\Internal\\CommonExpression.cs",
-              "ViewState": "AgIAAIEHAAAAAAAAAAArwI4HAAAxAAAAAAAAAA==",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\MainForm.cs",
+              "RelativeToolTip": "UI\\MainForm.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAowLsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T13:55:53.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SetTargetTemperature.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs",
-              "RelativeDocumentMoniker": "UI\\SetTargetTemperature.cs",
-              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs",
-              "RelativeToolTip": "UI\\SetTargetTemperature.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAwG8AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T01:10:16.282Z",
+              "WhenOpened": "2025-09-17T11:58:37.374Z",
               "EditorCaption": ""
             },
             {
@@ -113,64 +103,40 @@
               "RelativeDocumentMoniker": "Service\\YudianClient.cs",
               "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Service\\YudianClient.cs",
               "RelativeToolTip": "Service\\YudianClient.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAlwNIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAKkAAAAAAAAAAAASwHcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T06:21:36.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\MainForm.cs",
-              "RelativeDocumentMoniker": "UI\\MainForm.cs",
-              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\MainForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "UI\\MainForm.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T06:41:15.121Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\MainForm.cs",
-              "RelativeDocumentMoniker": "UI\\MainForm.cs",
-              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\MainForm.cs",
-              "RelativeToolTip": "UI\\MainForm.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowFoAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T11:58:37.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SetTargetTemperature.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs",
-              "RelativeDocumentMoniker": "UI\\SetTargetTemperature.cs",
-              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "UI\\SetTargetTemperature.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:42:14.911Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Global.cs",
               "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Global.cs",
               "RelativeDocumentMoniker": "Global.cs",
               "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Global.cs",
               "RelativeToolTip": "Global.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAA0wFkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T05:34:06.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "TakeOut.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\TakeOut.cs",
+              "RelativeDocumentMoniker": "UI\\TakeOut.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\TakeOut.cs",
+              "RelativeToolTip": "UI\\TakeOut.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T01:38:19.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Temperature.cs",
               "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Model\\Temperature.cs",
               "RelativeDocumentMoniker": "Model\\Temperature.cs",
@@ -183,13 +149,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SetTargetTemperature.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs",
+              "RelativeDocumentMoniker": "UI\\SetTargetTemperature.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs",
+              "RelativeToolTip": "UI\\SetTargetTemperature.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAowCoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T01:10:16.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:34:08.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Search.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\Search.cs",
+              "RelativeDocumentMoniker": "UI\\Search.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\Search.cs",
+              "RelativeToolTip": "UI\\Search.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T01:45:01.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "DataHelper.cs",
               "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\DataHelper.cs",
               "RelativeDocumentMoniker": "DataHelper.cs",
               "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\DataHelper.cs",
               "RelativeToolTip": "DataHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T12:00:42.09Z",
               "EditorCaption": ""
@@ -197,6 +202,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T01:44:20.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Search.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\Search.cs",
               "RelativeDocumentMoniker": "UI\\Search.cs",
@@ -208,65 +226,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "Model\\Product.cs",
-              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Model\\Product.cs",
-              "RelativeToolTip": "Model\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "SetTargetTemperature.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs",
+              "RelativeDocumentMoniker": "UI\\SetTargetTemperature.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "UI\\SetTargetTemperature.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:44:20.038Z"
+              "WhenOpened": "2025-09-18T01:42:14.911Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "MainForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\MainForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "UI\\MainForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T06:41:15.121Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TakeOut.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\TakeOut.cs",
+              "RelativeDocumentMoniker": "UI\\TakeOut.cs",
+              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\TakeOut.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "UI\\TakeOut.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T06:59:52.79Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "DataProcess.cs",
               "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Tools\\DataProcess.cs",
               "RelativeDocumentMoniker": "Tools\\DataProcess.cs",
               "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Tools\\DataProcess.cs",
               "RelativeToolTip": "Tools\\DataProcess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:48:18.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Search.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\Search.cs",
-              "RelativeDocumentMoniker": "UI\\Search.cs",
-              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\Search.cs",
-              "RelativeToolTip": "UI\\Search.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:45:01.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T05:34:08.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TakeOut.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\TakeOut.cs",
-              "RelativeDocumentMoniker": "UI\\TakeOut.cs",
-              "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\TakeOut.cs",
-              "RelativeToolTip": "UI\\TakeOut.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:38:19.925Z"
+              "WhenOpened": "2025-09-18T01:48:18.437Z"
             },
             {
               "$type": "Document",

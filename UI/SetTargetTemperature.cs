@@ -20,13 +20,13 @@ namespace NetTemperatureMonitor.UI
             tcpClient = yudianClient;
             InitializeComponent();
         }
-        private async Task<Tuple<int, List<float>, List<int>>> CountStep()
+        private async Task<Tuple<int, List<int>, List<int>>> CountStep()
         {
             //在后台线程处理数据计算
             return await Task.Run(() =>
             {
                 int count = 0;
-                List<float> putInTemperture = new List<float>();
+                List<int> putInTemperture = new List<int>();
                 List<int> roastTime = new List<int>();
                 for (int i = 0; i < 7; i++)
                 {
@@ -36,11 +36,11 @@ namespace NetTemperatureMonitor.UI
                     {
                         count++;
                         //安全转换温度值
-                        if (float.TryParse(Controls.Find($"TxtStepTemperature{i + 1}", true).FirstOrDefault()?.Text, out float temp))
+                        if (int.TryParse(Controls.Find($"TxtStepTemperature{i + 1}", true).FirstOrDefault()?.Text, out int temp))
                         {
-                            putInTemperture.Add(temp); //只保留最后一个有效的温度值
+                            putInTemperture.Add(temp); 
                         }
-                        //安全转换时间值并累加
+                        //安全转换时间值
                         if (int.TryParse(Controls.Find($"TxtStepTime{i + 1}", true).FirstOrDefault()?.Text, out int time))
                         {
                             roastTime.Add(time);
@@ -102,10 +102,8 @@ namespace NetTemperatureMonitor.UI
                     tcpClient.SetStepNumber(Convert.ToByte(mn), Global.Pno, stepCount);
                     for (int i = 0; i < stepCount; i++)
                     {
-                            UITextBox tempText = this.Controls.Find($"TxtStepTemperature{i + 1}", true).FirstOrDefault() as UITextBox;
-                            int temp = Convert.ToInt16(tempText.Text) * 10;
-                            UITextBox timeText = this.Controls.Find($"TxtStepTime{i + 1}", true).FirstOrDefault() as UITextBox;
-                            short t = Convert.ToInt16(timeText.Text);
+                            int temp = putInTemperature[i] * 10;
+                            short t = (short)(roastTime[i] * 10);
                             tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + i * 2), temp);
                             tcpClient.SetStepTime(Convert.ToByte(mn), Convert.ToByte(Global.T1 + i * 2), t);
                     }

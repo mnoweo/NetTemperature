@@ -35,7 +35,7 @@ namespace NetTemperatureMonitor.UI
             }
             Task.Run(() =>
                 fsql.Update<Product>()
-                    .Set(a => new Product
+                    .Set( a => new Product
                     {
                         TakeOutWorker = TxtTakeWorker.Text,
                         TakeOutTime = DateTime.Now,

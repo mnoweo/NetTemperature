@@ -465,6 +465,7 @@
             this.BtnExport.TabIndex = 3;
             this.BtnExport.Text = "导出";
             this.BtnExport.TipsFont = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnExport.Click += new System.EventHandler(this.BtnExport_Click);
             // 
             // formsPlot
             // 

@@ -86,7 +86,7 @@ namespace NetTemperatureMonitor.Service
                     OnErrorOccurred?.Invoke("连接已断开，尝试重连...");
                     _ = TryConnectAsync(ip, port);
                 }
-                Thread.Sleep(5000);
+                Thread.Sleep(3000);
             }
         }
         public async Task<bool> TryConnectAsync(string ip, int port)
@@ -270,7 +270,7 @@ namespace NetTemperatureMonitor.Service
         public short GetRunTime(byte address, byte paramterCode)
         {
             byte[] command = PrepareReadCommandFrame(address, paramterCode);
-            return GetReadValue(command, address);
+            return (short)(GetReadValue(command, address) / 10);
         }
         //获取上下限报警
         public float GetAlarmAsync(byte address, byte parameterCode)

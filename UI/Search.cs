@@ -28,7 +28,7 @@ namespace NetTemperatureMonitor.UI
             DgvSearch.AllowUserToAddRows = false;
             DgvRecord.RowHeadersVisible = false;
             DgvRecord.AllowUserToAddRows = false;
-            #region 初始图配置
+            #region 温度曲线设置
             formsPlot.Plot.Font.Set("微软雅黑");
             formsPlot.Plot.Title("温度曲线");
             formsPlot.Plot.XLabel("时间");
@@ -131,6 +131,7 @@ namespace NetTemperatureMonitor.UI
                     var plotList = fsql.Select<Temperature>()
                             .Where(a => a.Mn == mnValue && 
                                     a.TempTime >= datetime)
+                            .OrderBy(a => a.TempTime)
                             .ToList();
                     var dateList = plotList.Select(item => item.TempTime).ToList();
                     var valueList = plotList.Select(item => item.TempValue).ToList();
