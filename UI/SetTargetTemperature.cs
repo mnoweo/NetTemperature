@@ -1,12 +1,13 @@
-﻿using System;
+﻿using NetTemperatureMonitor.Model;
+using NetTemperatureMonitor.Service;
+using NetTemperatureMonitor.Tools;
+using ScottPlot.Colormaps;
+using Sunny.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NetTemperatureMonitor.Model;
-using NetTemperatureMonitor.Service;
-using NetTemperatureMonitor.Tools;
-using Sunny.UI;
 
 namespace NetTemperatureMonitor.UI
 {
@@ -99,7 +100,6 @@ namespace NetTemperatureMonitor.UI
             {
                 await Task.Run(() =>
                 {
-                    tcpClient.SetStepNumber(Convert.ToByte(mn), Global.Pno, stepCount);
                     for (int i = 0; i < stepCount; i++)
                     {
                             int temp = putInTemperature[i] * 10;
@@ -107,6 +107,10 @@ namespace NetTemperatureMonitor.UI
                             tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + i * 2), temp);
                             tcpClient.SetStepTime(Convert.ToByte(mn), Convert.ToByte(Global.T1 + i * 2), t);
                     }
+                    tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2), 0);
+                    tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2 + 1), -121);
+
+                    tcpClient.SetStepNumber(Convert.ToByte(mn), Global.Pno, (short)(stepCount + 1));
                     tcpClient.SetStart(Convert.ToByte(mn), Global.Srun, (short)Srun.RUN);
                     DateTime time = DateTime.Now;
                     Product product = new Product
