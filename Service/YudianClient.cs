@@ -190,8 +190,8 @@ namespace NetTemperatureMonitor.Service
             Array.Copy(Global.Writecommand, 0, command, 0, Global.Readcommand.Length);
             command[0] = address;
             command[3] = parameterCode;
-            command[4] = (byte)(target / 256);
-            command[5] = (byte)(target % 256);
+            command[4] = BitConverter.GetBytes(target)[1];
+            command[5] = BitConverter.GetBytes(target)[0];
             byte[] crcBytes = CRC16(command);
             command[6] = crcBytes[0];
             command[7] = crcBytes[1];
