@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\service\\yudianclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|d:\\visual studio\\dev\\nettemperaturemonitor\\service\\yudianclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:service\\yudianclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|d:\\visual studio\\dev\\nettemperaturemonitor\\ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|D:\\Visual Studio\\dev\\NetTemperatureMonitor\\ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626463B2-2D8F-4C25-B2EF-6D0D1C4FA6F9}|NetTemperatureMonitor.csproj|solutionrelative:ui\\settargettemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -90,7 +90,7 @@
               "RelativeDocumentMoniker": "Service\\YudianClient.cs",
               "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\Service\\YudianClient.cs",
               "RelativeToolTip": "Service\\YudianClient.cs",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAtwM4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAswMoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T06:21:36.311Z",
               "EditorCaption": ""
@@ -115,7 +115,7 @@
               "RelativeDocumentMoniker": "UI\\SetTargetTemperature.cs",
               "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs",
               "RelativeToolTip": "UI\\SetTargetTemperature.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAowGoAAAB0AAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowGsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T01:10:16.282Z",
               "EditorCaption": ""
@@ -247,7 +247,8 @@
               "ToolTip": "D:\\Visual Studio\\dev\\NetTemperatureMonitor\\UI\\SetTargetTemperature.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "UI\\SetTargetTemperature.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:42:14.911Z"
+              "WhenOpened": "2025-09-18T01:42:14.911Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",

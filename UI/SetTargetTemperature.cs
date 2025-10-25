@@ -108,7 +108,7 @@ namespace NetTemperatureMonitor.UI
                             tcpClient.SetStepTime(Convert.ToByte(mn), Convert.ToByte(Global.T1 + i * 2), t);
                     }
                     tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2), 0);
-                    tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2 + 1), -121);
+                    tcpClient.SetStepTime(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2 + 1), -121);
 
                     tcpClient.SetStepNumber(Convert.ToByte(mn), Global.Pno, (short)(stepCount + 1));
                     tcpClient.SetStart(Convert.ToByte(mn), Global.Srun, (short)Srun.RUN);
