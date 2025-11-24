@@ -25,7 +25,6 @@ namespace NetTemperatureMonitor.UI
         //所有烤箱字典，键为烤箱标号，值表示是否在线
         //private Dictionary<string, bool> allMnList = new Dictionary<string, bool>();
         //private static readonly object communicationLock = new object();
-      
         #endregion
 
         public MainForm()

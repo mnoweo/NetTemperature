@@ -24,6 +24,7 @@ namespace NetTemperatureMonitor.UI
         //窗体加载
         private void Search_Load(object sender, EventArgs e)
         {
+            byte[] data = BitConverter.GetBytes(-2);
             DgvSearch.RowHeadersVisible = false;
             DgvSearch.AllowUserToAddRows = false;
             DgvRecord.RowHeadersVisible = false;

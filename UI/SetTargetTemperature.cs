@@ -1,7 +1,6 @@
 ﻿using NetTemperatureMonitor.Model;
 using NetTemperatureMonitor.Service;
 using NetTemperatureMonitor.Tools;
-using ScottPlot.Colormaps;
 using Sunny.UI;
 using System;
 using System.Collections.Generic;
@@ -107,8 +106,8 @@ namespace NetTemperatureMonitor.UI
                             tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + i * 2), temp);
                             tcpClient.SetStepTime(Convert.ToByte(mn), Convert.ToByte(Global.T1 + i * 2), t);
                     }
-                    tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2), 0);
-                    tcpClient.SetStepTime(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2 + 1), -121);
+                    tcpClient.SetStepTemperature(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2), -2);
+                    tcpClient.SetStepTime(Convert.ToByte(mn), Convert.ToByte(Global.Sp1 + stepCount * 2 + 1), -1210);
 
                     tcpClient.SetStepNumber(Convert.ToByte(mn), Global.Pno, (short)(stepCount + 1));
                     tcpClient.SetStart(Convert.ToByte(mn), Global.Srun, (short)Srun.RUN);
